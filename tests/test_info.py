@@ -16,5 +16,4 @@ import pdfinfo.info
 def test_pdfinfo_info_generator():
     resource = power.DOCU027_PDF
     generator = pdfinfo.info.generator(resource)
-
     assert generator == iamraw.Generator.LATEX, str(generator)

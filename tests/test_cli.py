@@ -81,3 +81,13 @@ def test_pdfinfo_stdout(td, mp, capsys):
         '{"pages": 27, "generator": "latex", "version": {"major": 1, '
         '"minor": 5}, "meta": {"author": "", "title": "", "subject": "",')
     assert expected in stdout  # do not verify all parsed meta data
+
+
+@utilatest.longrun
+@pytest.mark.parametrize(
+    'source',
+    [pytest.param(item, id=utila.file_name(item)) for item in power.PDF],
+)
+def test_huge(source, mp):
+    cmd = f'-i {source}'
+    tests.run(cmd, mp=mp)
