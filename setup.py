@@ -45,4 +45,7 @@ if __name__ == "__main__":
         packages=[
             'pdfinfo',
         ],
+        entry_points={
+            'console_scripts': ['pdfinfo = pdfinfo.cli:main',],
+        },
     )
