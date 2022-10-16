@@ -16,6 +16,7 @@ import utilatest
 import tests
 
 
+@pytest.mark.timeout(120)
 @utilatest.nightly
 @pytest.mark.security
 def test_badguy_longpdf(td, mp):
@@ -24,5 +25,5 @@ def test_badguy_longpdf(td, mp):
     Long files with content are excluded by file size limit.
     """
     very_long = os.path.join(td.tmpdir, 'mejabalong.pdf')
-    jam.write_blank_pdf(100000, very_long)
+    jam.write_blank_pdf(10000, very_long)
     tests.run(f'-i {very_long}', mp=mp)
