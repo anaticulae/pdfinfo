@@ -2,6 +2,13 @@
 
 Every noteable change is logged here.
 
+## v0.1.5 (2022-11-08)
+
+### Chore
+
+* upgrade requirements.txt (f74195737dcc)
+* upgrade environment (8656d01bccc3)
+
 ## v0.1.4 (2022-10-16)
 
 ### Chore
