@@ -2,6 +2,25 @@
 
 Every noteable change is logged here.
 
+## v0.2.0 (2023-02-09)
+
+### Feature
+
+* catch serialization error (c004c8b1c31c)
+
+### Fix
+
+* ensure that bytes in a list are converted (8e6b8c9cd6c2)
+
+### Chore
+
+* add cov step (abdc23d60fa4)
+* add hardcore (95ed037b15fa)
+* upgrade Jenkinsfile (95708d347b19)
+* upgrade pipe library (b70380545afe)
+* upgrade requirements.txt (b163eed31f4e)
+* do not upgrade pdfminer (f2c9342a4d9f)
+
 ## v0.1.8 (2023-01-02)
 
 ### Documentation
