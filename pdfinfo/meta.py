@@ -39,6 +39,10 @@ def resolve(reference):
 
 
 def prepare(value):
+    """\
+    >>> prepare([b'hello', b'tello'])
+    ['hello', 'tello']
+    """
     value = resolve(value)
     if isinstance(value, bytes):
         # SEE PDFDocEncoding Character Set
