@@ -44,7 +44,8 @@ def prepare(value):
         # SEE PDFDocEncoding Character Set
         value = pdfminer.utils.decode_text(value)
     elif isinstance(value, list):
-        pass  # nothing todo
+        # convert bytes if required
+        value = [prepare(item) for item in value]
     else:
         value = utila.str2bool(value.name)
     return value
