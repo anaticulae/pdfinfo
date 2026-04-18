@@ -1,38 +1,67 @@
 # CHANGELOG
 
 
+## v1.0.1 (2026-04-18)
+
+### Chores
+
+- **baw**: Disable plugin
+  ([`2ec1176`](https://github.com/anaticulae/pdflog/commit/2ec1176b6a82a8f2561a176b8a0befe605af7a3b))
+
+- **docker**: Install dev requirements
+  ([`94ebedf`](https://github.com/anaticulae/pdflog/commit/94ebedf2b01a85ee2eaac03cb92f210387115f70))
+
+- **requirements**: Adjust requirements
+  ([`08cc3e0`](https://github.com/anaticulae/pdflog/commit/08cc3e0240e626d9524b498edbda392762cf98e6))
+
+### Code Style
+
+- **format**: Format code
+  ([`7d112d2`](https://github.com/anaticulae/pdflog/commit/7d112d22507831544e19ca0b271f6195c6ddb8b8))
+
+### Refactoring
+
+- **rename**: Rename project
+  ([`dae458f`](https://github.com/anaticulae/pdflog/commit/dae458f89ebfe7078d2b9fa42428ea201b7fc98b))
+
+### Testing
+
+- **disable**: Disable falling unit tests
+  ([`9103200`](https://github.com/anaticulae/pdflog/commit/91032009e91cba1984fd5dd209d9bb8608a89600))
+
+
 ## v1.0.0 (2026-04-16)
 
 ### Chores
 
 - **changelog**: Rename file
-  ([`1001511`](https://github.com/anaticulae/pdfinfo/commit/1001511ff63f75162376a97543a7a858de71ff8d))
+  ([`1001511`](https://github.com/anaticulae/pdflog/commit/1001511ff63f75162376a97543a7a858de71ff8d))
 
 - **github**: Add .github
-  ([`1a2777c`](https://github.com/anaticulae/pdfinfo/commit/1a2777ced83efe632fd0c951b13f968a7dcb644b))
+  ([`1a2777c`](https://github.com/anaticulae/pdflog/commit/1a2777ced83efe632fd0c951b13f968a7dcb644b))
 
 - **github**: Fix docker publisher
-  ([`a554aa6`](https://github.com/anaticulae/pdfinfo/commit/a554aa6e11bac8990f3f5fb64bce0ba487b3b4c3))
+  ([`a554aa6`](https://github.com/anaticulae/pdflog/commit/a554aa6e11bac8990f3f5fb64bce0ba487b3b4c3))
 
 - **jenkins**: Remove outdated jenkins file
-  ([`8e2fbbd`](https://github.com/anaticulae/pdfinfo/commit/8e2fbbd5f58f3dc3e743df8278f6b5e938185436))
+  ([`8e2fbbd`](https://github.com/anaticulae/pdflog/commit/8e2fbbd5f58f3dc3e743df8278f6b5e938185436))
 
 - **license**: Add license file
-  ([`0d0e1ea`](https://github.com/anaticulae/pdfinfo/commit/0d0e1eaa65b19f4fe85bf3e4b22d6a66b6552b5b))
+  ([`0d0e1ea`](https://github.com/anaticulae/pdflog/commit/0d0e1eaa65b19f4fe85bf3e4b22d6a66b6552b5b))
 
 - **pyproject**: Enable iamraw
-  ([`fa3c027`](https://github.com/anaticulae/pdfinfo/commit/fa3c0277c1d2ffd07705bba6b5f58611a59ecef6))
+  ([`fa3c027`](https://github.com/anaticulae/pdflog/commit/fa3c0277c1d2ffd07705bba6b5f58611a59ecef6))
 
 - **pyproject**: Use modern approach
-  ([`c2fef11`](https://github.com/anaticulae/pdfinfo/commit/c2fef11d764fbc2044e9b63901aa7a62ed2b0578))
+  ([`c2fef11`](https://github.com/anaticulae/pdflog/commit/c2fef11d764fbc2044e9b63901aa7a62ed2b0578))
 
 - **readme**: Rename file
-  ([`4b43e2c`](https://github.com/anaticulae/pdfinfo/commit/4b43e2cae1c4d687a303201f073256bff75c245c))
+  ([`4b43e2c`](https://github.com/anaticulae/pdflog/commit/4b43e2cae1c4d687a303201f073256bff75c245c))
 
 ### Refactoring
 
 - **rename**: Adjust to new package names
-  ([`140285e`](https://github.com/anaticulae/pdfinfo/commit/140285eb114e7e24246ca9a9a2d188749ae4f367))
+  ([`140285e`](https://github.com/anaticulae/pdflog/commit/140285eb114e7e24246ca9a9a2d188749ae4f367))
 
 
 ## v0.2.0 (2023-02-09)
@@ -40,40 +69,40 @@
 ### Bug Fixes
 
 - **meta**: Ensure that bytes in a list are converted
-  ([`8e6b8c9`](https://github.com/anaticulae/pdfinfo/commit/8e6b8c9cd6c2e56b8f9f50dcd70618faa172fcb1))
+  ([`8e6b8c9`](https://github.com/anaticulae/pdflog/commit/8e6b8c9cd6c2e56b8f9f50dcd70618faa172fcb1))
 
 ### Chores
 
 - **Jenkins**: Add cov step
-  ([`abdc23d`](https://github.com/anaticulae/pdfinfo/commit/abdc23d60fa480c289333cad454ef707909f28e9))
+  ([`abdc23d`](https://github.com/anaticulae/pdflog/commit/abdc23d60fa480c289333cad454ef707909f28e9))
 
 - **Jenkins**: Upgrade Jenkinsfile
-  ([`95708d3`](https://github.com/anaticulae/pdfinfo/commit/95708d347b1986ed4857fda86cafac2124b75f6b))
+  ([`95708d3`](https://github.com/anaticulae/pdflog/commit/95708d347b1986ed4857fda86cafac2124b75f6b))
 
 - **Jenkins**: Upgrade pipe library
-  ([`b703805`](https://github.com/anaticulae/pdfinfo/commit/b70380545afe0508fac98ee576aa2615b7fe86b4))
+  ([`b703805`](https://github.com/anaticulae/pdflog/commit/b70380545afe0508fac98ee576aa2615b7fe86b4))
 
 - **requirements**: Add hardcore
-  ([`95ed037`](https://github.com/anaticulae/pdfinfo/commit/95ed037b15fa0e8d69a3018fe7ea57f1b73cea14))
+  ([`95ed037`](https://github.com/anaticulae/pdflog/commit/95ed037b15fa0e8d69a3018fe7ea57f1b73cea14))
 
 - **requirements**: Do not upgrade pdfminer
-  ([`f2c9342`](https://github.com/anaticulae/pdfinfo/commit/f2c9342a4d9fd64f30b4281513b93995fa141987))
+  ([`f2c9342`](https://github.com/anaticulae/pdflog/commit/f2c9342a4d9fd64f30b4281513b93995fa141987))
 
 - **requirements**: Upgrade requirements.txt
-  ([`b163eed`](https://github.com/anaticulae/pdfinfo/commit/b163eed31f4edb82b2a4e4a8c31e24be17c64823))
+  ([`b163eed`](https://github.com/anaticulae/pdflog/commit/b163eed31f4edb82b2a4e4a8c31e24be17c64823))
 
 ### Features
 
 - **cli**: Catch serialization error
-  ([`c004c8b`](https://github.com/anaticulae/pdfinfo/commit/c004c8b1c31cf2b75d72f629d01be1d1caba6c4a))
+  ([`c004c8b`](https://github.com/anaticulae/pdflog/commit/c004c8b1c31cf2b75d72f629d01be1d1caba6c4a))
 
 ### Testing
 
 - **meta**: Add doctest
-  ([`617eabc`](https://github.com/anaticulae/pdfinfo/commit/617eabc4b5588c59154d18913a1e16f6df3b97dc))
+  ([`617eabc`](https://github.com/anaticulae/pdflog/commit/617eabc4b5588c59154d18913a1e16f6df3b97dc))
 
 - **regression**: Verify outlines
-  ([`ffa9f85`](https://github.com/anaticulae/pdfinfo/commit/ffa9f85a5b5eedf7238857feb03b50439753b92d))
+  ([`ffa9f85`](https://github.com/anaticulae/pdflog/commit/ffa9f85a5b5eedf7238857feb03b50439753b92d))
 
 
 ## v0.1.8 (2023-01-02)
@@ -81,21 +110,21 @@
 ### Chores
 
 - **Jenkins**: Upgrade Jenkinsfile
-  ([`4c9bf92`](https://github.com/anaticulae/pdfinfo/commit/4c9bf92aed4c938f5dfff40bc655f511d6a126ec))
+  ([`4c9bf92`](https://github.com/anaticulae/pdflog/commit/4c9bf92aed4c938f5dfff40bc655f511d6a126ec))
 
 - **Jenkins**: Upgrade pipe library
-  ([`7a1b9cf`](https://github.com/anaticulae/pdfinfo/commit/7a1b9cf8dc19f785e9ea7d0f777c05d7a59c710c))
+  ([`7a1b9cf`](https://github.com/anaticulae/pdflog/commit/7a1b9cf8dc19f785e9ea7d0f777c05d7a59c710c))
 
 - **Jenkins**: Use new pre-release
-  ([`eff851f`](https://github.com/anaticulae/pdfinfo/commit/eff851f035a60102ae77f6766c65ee9bceed18ce))
+  ([`eff851f`](https://github.com/anaticulae/pdflog/commit/eff851f035a60102ae77f6766c65ee9bceed18ce))
 
 - **setup**: Use quick install
-  ([`d333153`](https://github.com/anaticulae/pdfinfo/commit/d333153302b17a269ba5d42fc5df634a1d932a8f))
+  ([`d333153`](https://github.com/anaticulae/pdflog/commit/d333153302b17a269ba5d42fc5df634a1d932a8f))
 
 ### Documentation
 
 - **copyright**: Happy New Year!
-  ([`6235c8a`](https://github.com/anaticulae/pdfinfo/commit/6235c8a0624919e7f917844779a2888c557925d3))
+  ([`6235c8a`](https://github.com/anaticulae/pdflog/commit/6235c8a0624919e7f917844779a2888c557925d3))
 
 
 ## v0.1.7 (2023-01-02)
@@ -103,7 +132,7 @@
 ### Chores
 
 - **requirements**: Downgrade to allow dependency resolution
-  ([`fd92d0b`](https://github.com/anaticulae/pdfinfo/commit/fd92d0b8d3b0c3fa92ddeb855d7bbd7af2e80aa7))
+  ([`fd92d0b`](https://github.com/anaticulae/pdflog/commit/fd92d0b8d3b0c3fa92ddeb855d7bbd7af2e80aa7))
 
 
 ## v0.1.6 (2022-12-22)
@@ -111,18 +140,18 @@
 ### Chores
 
 - **Jenkins**: Upgrade pipeline
-  ([`c43ce8b`](https://github.com/anaticulae/pdfinfo/commit/c43ce8bb9aeac078e5d8be94e0a41d8cb983d7ff))
+  ([`c43ce8b`](https://github.com/anaticulae/pdflog/commit/c43ce8bb9aeac078e5d8be94e0a41d8cb983d7ff))
 
 - **requirements**: Upgrade requirements.txt
-  ([`849e04c`](https://github.com/anaticulae/pdfinfo/commit/849e04c26a4f1d3195f90dff106a4de572e6d259))
+  ([`849e04c`](https://github.com/anaticulae/pdflog/commit/849e04c26a4f1d3195f90dff106a4de572e6d259))
 
 - **requirements**: Upgrade requirements.txt
-  ([`0e5bf4b`](https://github.com/anaticulae/pdfinfo/commit/0e5bf4bcde5972bc8587c4c8cd62047ec76440cd))
+  ([`0e5bf4b`](https://github.com/anaticulae/pdflog/commit/0e5bf4bcde5972bc8587c4c8cd62047ec76440cd))
 
 ### Testing
 
 - **cli**: Enable test after fixing pdf
-  ([`812ee44`](https://github.com/anaticulae/pdfinfo/commit/812ee44acf0c27cb11a4e3f51067a81183b2dbee))
+  ([`812ee44`](https://github.com/anaticulae/pdflog/commit/812ee44acf0c27cb11a4e3f51067a81183b2dbee))
 
 
 ## v0.1.5 (2022-11-08)
@@ -130,18 +159,18 @@
 ### Chores
 
 - **Jenkins**: Upgrade environment
-  ([`8656d01`](https://github.com/anaticulae/pdfinfo/commit/8656d01bccc33f1faff7cde69a0f6cd85c106a4d))
+  ([`8656d01`](https://github.com/anaticulae/pdflog/commit/8656d01bccc33f1faff7cde69a0f6cd85c106a4d))
 
 - **requirements**: Upgrade requirements.txt
-  ([`f741957`](https://github.com/anaticulae/pdfinfo/commit/f74195737dcc6079814a3fd3c12870b16be2284c))
+  ([`f741957`](https://github.com/anaticulae/pdflog/commit/f74195737dcc6079814a3fd3c12870b16be2284c))
 
 ### Testing
 
 - **cli**: Ensure that page number is detected correctly
-  ([`b1c95b8`](https://github.com/anaticulae/pdfinfo/commit/b1c95b8345f35f9c336d3f42931d4c788b72fa3b))
+  ([`b1c95b8`](https://github.com/anaticulae/pdflog/commit/b1c95b8345f35f9c336d3f42931d4c788b72fa3b))
 
 - **refactor**: Improve code style
-  ([`97f4cf2`](https://github.com/anaticulae/pdfinfo/commit/97f4cf2b6a3d050976acabf78386d31ce85fda23))
+  ([`97f4cf2`](https://github.com/anaticulae/pdflog/commit/97f4cf2b6a3d050976acabf78386d31ce85fda23))
 
 
 ## v0.1.4 (2022-10-16)
@@ -149,22 +178,22 @@
 ### Chores
 
 - **baw**: Add timeout plugin
-  ([`25b8447`](https://github.com/anaticulae/pdfinfo/commit/25b84471edb8a07de146ba620b0087855bd6d2f7))
+  ([`25b8447`](https://github.com/anaticulae/pdflog/commit/25b84471edb8a07de146ba620b0087855bd6d2f7))
 
 - **Jenkins**: Convert nightly to all
-  ([`1fb0bc8`](https://github.com/anaticulae/pdfinfo/commit/1fb0bc802da5b5a8a954c243de65e4362033bd9a))
+  ([`1fb0bc8`](https://github.com/anaticulae/pdflog/commit/1fb0bc802da5b5a8a954c243de65e4362033bd9a))
 
 - **Jenkins**: Do not run in privileged mode
-  ([`aa25721`](https://github.com/anaticulae/pdfinfo/commit/aa25721df893fd6a2419b30c84bd79c9418671fd))
+  ([`aa25721`](https://github.com/anaticulae/pdflog/commit/aa25721df893fd6a2419b30c84bd79c9418671fd))
 
 - **Jenkins**: Upgrade Jenkinsfile
-  ([`52ba4bf`](https://github.com/anaticulae/pdfinfo/commit/52ba4bfeb83c1895d6be842c8f3f7770b64b75ff))
+  ([`52ba4bf`](https://github.com/anaticulae/pdflog/commit/52ba4bfeb83c1895d6be842c8f3f7770b64b75ff))
 
 - **requirements**: Upgrade requirements.txt
-  ([`730477b`](https://github.com/anaticulae/pdfinfo/commit/730477b4e06d28cbc3157175e5c2e6f8c2742758))
+  ([`730477b`](https://github.com/anaticulae/pdflog/commit/730477b4e06d28cbc3157175e5c2e6f8c2742758))
 
 - **test**: Limit badguy execution time
-  ([`6a1a698`](https://github.com/anaticulae/pdfinfo/commit/6a1a6984cf870086463be936ac97a7229c241859))
+  ([`6a1a698`](https://github.com/anaticulae/pdflog/commit/6a1a6984cf870086463be936ac97a7229c241859))
 
 
 ## v0.1.3 (2022-09-25)
@@ -172,15 +201,15 @@
 ### Chores
 
 - **ci**: Add Jenkinsfile
-  ([`310a983`](https://github.com/anaticulae/pdfinfo/commit/310a9834cec633dd2c543a02fadd383ba9545e48))
+  ([`310a983`](https://github.com/anaticulae/pdflog/commit/310a9834cec633dd2c543a02fadd383ba9545e48))
 
 - **requirements**: Upgrade requirements.txt
-  ([`b8a7e1a`](https://github.com/anaticulae/pdfinfo/commit/b8a7e1a85a9514a7be4864aa9d0cf27b2663a6a1))
+  ([`b8a7e1a`](https://github.com/anaticulae/pdflog/commit/b8a7e1a85a9514a7be4864aa9d0cf27b2663a6a1))
 
 ### Code Style
 
 - **changelog**: Fix header to find with release
-  ([`db89ddf`](https://github.com/anaticulae/pdfinfo/commit/db89ddf41d941f2dc36968a7da6e449a4542aaa8))
+  ([`db89ddf`](https://github.com/anaticulae/pdflog/commit/db89ddf41d941f2dc36968a7da6e449a4542aaa8))
 
 
 ## v0.1.2 (2022-07-28)
@@ -188,7 +217,7 @@
 ### Chores
 
 - **requirements**: Upgrade requirements.txt
-  ([`ffcb4f5`](https://github.com/anaticulae/pdfinfo/commit/ffcb4f5ad3f582765879c22f9a0010898cefd967))
+  ([`ffcb4f5`](https://github.com/anaticulae/pdflog/commit/ffcb4f5ad3f582765879c22f9a0010898cefd967))
 
 
 ## v0.1.1 (2022-07-27)
@@ -196,23 +225,23 @@
 ### Chores
 
 - **requirements**: Add jam
-  ([`4550123`](https://github.com/anaticulae/pdfinfo/commit/4550123f784b33e14e3e89a812afbb79cda46a0a))
+  ([`4550123`](https://github.com/anaticulae/pdflog/commit/4550123f784b33e14e3e89a812afbb79cda46a0a))
 
 - **requirements**: Upgrade requirements.txt
-  ([`23cf6b8`](https://github.com/anaticulae/pdfinfo/commit/23cf6b881b4009b9f47f04882af733510f2ddd87))
+  ([`23cf6b8`](https://github.com/anaticulae/pdflog/commit/23cf6b881b4009b9f47f04882af733510f2ddd87))
 
 ### Features
 
 - **API**: Add public API
-  ([`2c5e043`](https://github.com/anaticulae/pdfinfo/commit/2c5e043cdafc3a6823e72c38721b6c96a4b435dc))
+  ([`2c5e043`](https://github.com/anaticulae/pdflog/commit/2c5e043cdafc3a6823e72c38721b6c96a4b435dc))
 
 ### Testing
 
 - **cli**: Increase test coverage
-  ([`35871fd`](https://github.com/anaticulae/pdfinfo/commit/35871fddee761a37722285a434bcbf695c6913f3))
+  ([`35871fd`](https://github.com/anaticulae/pdflog/commit/35871fddee761a37722285a434bcbf695c6913f3))
 
 - **move**: Move forgotten test from rawmaker
-  ([`e6e7298`](https://github.com/anaticulae/pdfinfo/commit/e6e7298bd80b4e38a90a5db665b90d6f81d75d48))
+  ([`e6e7298`](https://github.com/anaticulae/pdflog/commit/e6e7298bd80b4e38a90a5db665b90d6f81d75d48))
 
 
 ## v0.1.0 (2022-07-27)
@@ -220,17 +249,17 @@
 ### Chores
 
 - **requirements**: Move requirements
-  ([`aafcdb3`](https://github.com/anaticulae/pdfinfo/commit/aafcdb37bf35a9b30045be07b42c7e3536bdac52))
+  ([`aafcdb3`](https://github.com/anaticulae/pdflog/commit/aafcdb37bf35a9b30045be07b42c7e3536bdac52))
 
 ### Features
 
 - **move**: Move code from pdfinfo
-  ([`92fbc22`](https://github.com/anaticulae/pdfinfo/commit/92fbc22fc29c9749fb43c59f2e6fccae5bfbac8d))
+  ([`92fbc22`](https://github.com/anaticulae/pdflog/commit/92fbc22fc29c9749fb43c59f2e6fccae5bfbac8d))
 
 ### Testing
 
 - **move**: Move tests from rawmaker
-  ([`bdb769d`](https://github.com/anaticulae/pdfinfo/commit/bdb769d4039812e355e6473a2df27c1c6c108131))
+  ([`bdb769d`](https://github.com/anaticulae/pdflog/commit/bdb769d4039812e355e6473a2df27c1c6c108131))
 
 
 ## v0.0.0 (2022-07-27)
