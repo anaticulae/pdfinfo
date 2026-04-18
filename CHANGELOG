@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v1.0.2 (2026-04-18)
+
+### Chores
+
+- **make**: Adjust make step
+  ([`f9882dd`](https://github.com/anaticulae/pdflog/commit/f9882dd7eea3e05733cf41efa99a5b930ce8c861))
+
+
 ## v1.0.1 (2026-04-18)
 
 ### Chores
